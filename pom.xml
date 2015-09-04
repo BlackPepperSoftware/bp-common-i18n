@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>uk.co.blackpepper</groupId>
+		<artifactId>bp-parent</artifactId>
+		<version>1.0.2</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.co.blackpepper.common</groupId>
+	<artifactId>bp-common-i18n-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.1-SNAPSHOT</version>
+
+	<name>Black Pepper Common i18n Parent</name>
+	
+	<scm>
+		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-i18n.git</connection>
+		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-i18n.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://blackpepper.codebasehq.com/projects/black-pepper-common/repositories/bp-common-i18n</url>
+	</scm>
+
+	<properties>
+		<springVersion>4.1.3.RELEASE</springVersion>
+	</properties>
+
+	<dependencyManagement>
+		
+		<dependencies>
+
+			<!-- Guava -->
+			
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>17.0</version>
+			</dependency>
+
+			<!-- Spring -->
+
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+				<version>${springVersion}</version>
+			</dependency>
+	
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-test</artifactId>
+				<version>${springVersion}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>${springVersion}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>${springVersion}</version>
+			</dependency>
+
+			<!-- Servlet -->
+
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>3.1.0</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>javax.servlet.jsp</groupId>
+				<artifactId>jsp-api</artifactId>
+				<version>2.1</version>
+			</dependency>
+			
+			<!-- JUnit -->
+		
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.11</version>
+			</dependency>
+				
+			<!-- Hamcrest -->
+		
+			<dependency>
+				<groupId>org.hamcrest</groupId>
+				<artifactId>hamcrest-library</artifactId>
+				<version>1.2</version>
+			</dependency>
+
+			<!-- Mockito -->
+			
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-core</artifactId>
+				<version>1.9.5</version>
+			</dependency>
+
+		</dependencies>
+		
+	</dependencyManagement>
+
+	<modules>
+		<module>spring</module>
+		<module>spring-taglib</module>
+	</modules>
+
+</project>
