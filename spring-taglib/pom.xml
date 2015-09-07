@@ -12,6 +12,7 @@
 	<artifactId>bp-common-i18n-spring-taglib</artifactId>
 
 	<name>Black Pepper Common i18n Spring Taglib</name>
+	<description>Spring taglibs for application internationalisation.</description>
 	
 	<dependencies>
 

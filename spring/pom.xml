@@ -12,6 +12,7 @@
 	<artifactId>bp-common-i18n-spring</artifactId>
 
 	<name>Black Pepper Common i18n Spring</name>
+	<description>Spring support for application internationalisation.</description>
 	
 	<dependencies>
 	
