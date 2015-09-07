@@ -1,2 +1,4 @@
-# bp-common-i18n
+Black Pepper Common i18n
+========================
+
 Library that helps with application internationalisation.
