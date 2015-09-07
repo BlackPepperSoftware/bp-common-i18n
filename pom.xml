@@ -15,6 +15,8 @@
 	<version>1.1.0-SNAPSHOT</version>
 
 	<name>Black Pepper Common i18n Parent</name>
+	<description>Library that helps with application internationalisation.</description>
+	<url>https://github.com/BlackPepperSoftware/bp-common-i18n</url>
 	
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-common-i18n.git</connection>
