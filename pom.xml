@@ -17,10 +17,10 @@
 	<name>Black Pepper Common i18n Parent</name>
 	
 	<scm>
-		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-i18n.git</connection>
-		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-i18n.git</developerConnection>
+		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-common-i18n.git</connection>
+		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-common-i18n.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://blackpepper.codebasehq.com/projects/black-pepper-common/repositories/bp-common-i18n</url>
+		<url>https://github.com/BlackPepperSoftware/bp-common-i18n</url>
 	</scm>
 
 	<properties>
