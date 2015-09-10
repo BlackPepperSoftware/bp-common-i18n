@@ -27,7 +27,7 @@
 	<groupId>uk.co.blackpepper.common</groupId>
 	<artifactId>bp-common-i18n-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1.0</version>
+	<version>1.1.1-SNAPSHOT</version>
 
 	<name>Black Pepper Common i18n Parent</name>
 	<description>Library that helps with application internationalisation.</description>
@@ -57,7 +57,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-common-i18n.git</connection>
 		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-common-i18n.git</developerConnection>
-		<tag>1.1.0</tag>
+		<tag>HEAD</tag>
 		<url>https://github.com/BlackPepperSoftware/bp-common-i18n</url>
 	</scm>
 
